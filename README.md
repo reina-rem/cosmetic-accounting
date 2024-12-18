@@ -2,8 +2,8 @@
 This project was developed as a test assignment for the Junior Backend NodeJS Developer position. It demonstrates my ability to create a functional eCommerce backend API as a CRM+ERP system for a fictional cosmetics manufacturing company. In this project, only the MVP backend functionality was developed, without the use of external systems or client applications.
 
 ## Live Demo 
-You can view the live demo of the application here: __[Live Demo]__
-Link to documentation: __[Docs]__
+You can view the live demo of the application here: [Live Demo](https://cosmetic-accounting.onrender.com)
+Link to documentation: [Docs](https://cosmetic-accounting.onrender.com/docs)
 
 Administrator account to test the app:
 - email: johndoe@example.com
