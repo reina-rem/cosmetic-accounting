@@ -1,0 +1,686 @@
+{
+  "users": [
+    {
+      "roles": [
+        "owner",
+        "consultant",
+        "manager",
+        "manufacturer",
+        "courier"
+      ],
+      "email": "johndoe@example.com",
+      "password": "securepassword123"
+    },
+    {
+      "roles": [
+        "manager",
+        "manufacturer"
+      ],
+      "email": "alicesmith_pm@company.com",
+      "password": "pmsecurepass456"
+    },
+    {
+      "roles": [
+        "consultant",
+        "courier"
+      ],
+      "email": "davidlee_sm@example.com",
+      "password": "salespass202"
+    },
+    {
+      "roles": ["manufacturer"],
+      "email": "bobjohnson_mfg@company.com",
+      "password": "mfgpassword789"
+    },
+    {
+      "roles": ["manufacturer"],
+      "email": "charliebrown_courier@example.com",
+      "password": "courierpass101"
+    },
+    {
+      "roles": ["courier"],
+      "email": "evewhite_mfg@service.com",
+      "password": "mfgpass112"
+    },
+    {
+      "roles": ["courier"],
+      "email": "samgreen_courier@service.com",
+      "password": "courierpass202"
+    },
+    {
+      "roles": ["customer"],
+      "email": "laurablue_customer@example.com",
+      "password": "customerpass101"
+    },
+    {
+      "roles": ["customer"],
+      "email": "michaelturner_customer@company.com",
+      "password": "customerpass202"
+    },
+    {
+      "roles": ["customer"],
+      "email": "sophiaclark_customer@example.com",
+      "password": "customerpass303"
+    },
+    {
+      "roles": ["customer"],
+      "email": "jameswilson_customer@service.com",
+      "password": "customerpass404"
+    }
+  ],
+
+  "customer_infos": [
+    {
+      "name": "Laura Blue",
+      "birthday": "1990-05-12",
+      "note": "note",
+      "user_id": 8
+    },
+    {
+      "name": "Michael Turner",
+      "birthday": "1985-07-22",
+      "note": "note",
+      "user_id": 9
+    },
+    {
+      "name": "Sophia Clark",
+      "birthday": "1992-11-30",
+      "note": "note",
+      "user_id": 10
+    },
+    {
+      "name": "James Wilson",
+      "birthday": "1988-01-15",
+      "note": "note",
+      "user_id": 11
+    }
+
+  ],
+  "employee_infos": [
+    {
+      "is_deleted": false,
+      "name": "John Doe",
+      "salary": 500000,
+      "user_id": 1
+    },
+    {
+      "is_deleted": false,
+      "name": "Alice Smith",
+      "salary": 450000,
+      "user_id": 2
+    },
+    {
+      "is_deleted": false,
+      "name": "David Lee",
+      "salary": 400000,
+      "user_id": 3
+    },
+    {
+      "is_deleted": false,
+      "name": "Bob Johnson",
+      "salary": 350000,
+      "user_id": 4
+    },
+    {
+      "is_deleted": false,
+      "name": "Charlie Brown",
+      "salary": 350000,
+      "user_id": 5
+    },
+    {
+      "is_deleted": false,
+      "name": "Eve White",
+      "salary": 300000,
+      "user_id": 6
+    },
+    {
+      "is_deleted": false,
+      "name": "Sam Green",
+      "salary": 300000,
+      "user_id": 7
+    }
+  ],  
+
+  "payments": [
+    {
+      "category": "salary",
+      "amount": 450000,
+      "date": "2024-11-30"
+    },
+    {
+      "category": "rent",
+      "amount": 120000,
+      "date": "2024-12-01"
+    },
+    {
+      "category": "utilities",
+      "amount": 35075,
+      "date": "2024-12-05"
+    },
+    {
+      "category": "ingredients",
+      "amount": 200050,
+      "date": "2024-12-07"
+    },
+    {
+      "category": "packaging",
+      "amount": 80030,
+      "date": "2024-12-10"
+    },
+    {
+      "category": "marketing",
+      "amount": 150000,
+      "date": "2024-12-12"
+    },
+    {
+      "category": "taxes",
+      "amount": 75000,
+      "date": "2024-12-15"
+    }
+  ],
+
+  "units": [
+    {
+      "symbol": "l"
+    },
+    {
+      "symbol": "kg"
+    },
+    {
+      "symbol": "pc"
+    }
+  ],
+
+  "packages": [
+    {
+      "name": "Large Box",
+      "price": 100,
+      "quantity_in_stock": 10,
+      "quantity_reserved": 0
+    },
+    {
+      "name": "Small Box",
+      "price": 60,
+      "quantity_in_stock": 20,
+      "quantity_reserved": 1
+    }
+  ],
+
+  "products": [
+    {
+      "name": "Face and Body Scrub",
+      "price": 1599,
+      "quantity_in_stock": 15,
+      "quantity_reserved": 1,
+      "recipe": "Recipe"
+    },
+    {
+      "name": "Clay Face Mask",
+      "price": 1075,
+      "quantity_in_stock": 30,
+      "quantity_reserved": 2,
+      "recipe": "Recipe"
+    },
+    {
+      "name": "Moisturizing Lip Balm",
+      "price": 450,
+      "quantity_in_stock": 40,
+      "quantity_reserved": 0,
+      "recipe": "Recipe"
+    },
+    {
+      "name": "Coffee Body Scrub",
+      "price": 1650,
+      "quantity_in_stock": 20,
+      "quantity_reserved": 0,
+      "recipe": "Recipe"
+    },
+    {
+      "name": "Soap with Calendula Extract",
+      "price": 340,
+      "quantity_in_stock": 25,
+      "quantity_reserved": 0,
+      "recipe": "Recipe"
+    },
+    {
+      "name": "Herbal Face Toner",
+      "price": 1599,
+      "quantity_in_stock": 15,
+      "quantity_reserved": 0,
+      "recipe": "Recipe"
+    },
+    {
+      "name": "Shea Butter Hand Cream",
+      "price": 875,
+      "quantity_in_stock": 30,
+      "quantity_reserved": 0,
+      "recipe": "Recipe"
+    },
+    {
+      "name": "Aloe Vera Body Lotion",
+      "price": 450,
+      "quantity_in_stock": 25,
+      "quantity_reserved": 0,
+      "recipe": "Recipe"
+    },
+    {
+      "name": "Antibacterial Hand Gel",
+      "price": 350,
+      "quantity_in_stock": 40,
+      "quantity_reserved": 0,
+      "recipe": "Recipe"
+    }
+  ],
+
+  "ingredients": [
+    {
+      "name": "Plastic Jar",
+      "price_per_package": 30,
+      "packages_in_stock": 15,
+      "quantity_per_package": 1,
+      "unit": "pc"
+    },
+    {
+      "name": "Tube",
+      "price_per_package": 20,
+      "packages_in_stock": 30,
+      "quantity_per_package": 1,
+      "unit": "pc"
+    },
+    {
+      "name": "Paper Wrapper",
+      "price_per_package": 10,
+      "packages_in_stock": 40,
+      "quantity_per_package": 1,
+      "unit": "pc"
+    },
+    {
+      "name": "Spray Bottle",
+      "price_per_package": 50,
+      "packages_in_stock": 20,
+      "quantity_per_package": 1,
+      "unit": "pc"
+    },
+    {
+      "name": "Pump Bottle",
+      "price_per_package": 45,
+      "packages_in_stock": 25,
+      "quantity_per_package": 1,
+      "unit": "pc"
+    },
+    {
+      "name": "Sugar",
+      "price_per_package": 180,
+      "packages_in_stock": 5,
+      "quantity_per_package": 1,
+      "unit": "g"
+    },
+    {
+      "name": "Jojoba Oil",
+      "price_per_package": 2500,
+      "packages_in_stock": 2,
+      "quantity_per_package": 1,
+      "unit": "l"
+    },
+    {
+      "name": "Glycerin",
+      "price_per_package": 450,
+      "packages_in_stock": 3,
+      "quantity_per_package": 1,
+      "unit": "l"
+    },
+    {
+      "name": "Chamomile Extract",
+      "price_per_package": 2000,
+      "packages_in_stock": 3,
+      "quantity_per_package": 500,
+      "unit": "ml"
+    },
+    {
+      "name": "Lavender Essential Oil",
+      "price_per_package": 1250,
+      "packages_in_stock": 4,
+      "quantity_per_package": 100,
+      "unit": "ml"
+    },
+    {
+      "name": "Green Clay",
+      "price_per_package": 700,
+      "packages_in_stock": 2,
+      "quantity_per_package": 1,
+      "unit": "kg"
+    },
+    {
+      "name": "Rose Hydrosol",
+      "price_per_package": 6500,
+      "packages_in_stock": 1,
+      "quantity_per_package": 1,
+      "unit": "l"
+    },
+    {
+      "name": "Honey",
+      "price_per_package": 4000,
+      "packages_in_stock": 2,
+      "quantity_per_package": 3,
+      "unit": "kg"
+    },
+    {
+      "name": "Aloe Vera Gel",
+      "price_per_package": 700,
+      "packages_in_stock": 3,
+      "quantity_per_package": 1,
+      "unit": "l"
+    },
+    {
+      "name": "Tea Tree Essential Oil",
+      "price_per_package": 1750,
+      "packages_in_stock": 4,
+      "quantity_per_package": 100,
+      "unit": "ml"
+    },
+    {
+      "name": "Shea Butter",
+      "price_per_package": 1500,
+      "packages_in_stock": 2,
+      "quantity_per_package": 1,
+      "unit": "kg"
+    },
+    {
+      "name": "Beeswax",
+      "price_per_package": 2200,
+      "packages_in_stock": 2,
+      "quantity_per_package": 1,
+      "unit": "kg"
+    },
+    {
+      "name": "Avocado Oil",
+      "price_per_package": 2500,
+      "packages_in_stock": 2,
+      "quantity_per_package": 1,
+      "unit": "l"
+    },
+    {
+      "name": "Vitamin E Oil",
+      "price_per_package": 2500,
+      "packages_in_stock": 4,
+      "quantity_per_package": 100,
+      "unit": "ml"
+    },
+    {
+      "name": "Ground Coffee",
+      "price_per_package": 1000,
+      "packages_in_stock": 2,
+      "quantity_per_package": 1,
+      "unit": "kg"
+    },
+    {
+      "name": "Coconut Oil",
+      "price_per_package": 1700,
+      "packages_in_stock": 2,
+      "quantity_per_package": 1,
+      "unit": "l"
+    },
+    {
+      "name": "Orange Essential Oil",
+      "price_per_package": 1000,
+      "packages_in_stock": 5,
+      "quantity_per_package": 100,
+      "unit": "ml"
+    },
+    {
+      "name": "Glycerin Soap Base",
+      "price_per_package": 1000,
+      "packages_in_stock": 3,
+      "quantity_per_package": 1,
+      "unit": "kg"
+    },
+    {
+      "name": "Calendula Extract",
+      "price_per_package": 3250,
+      "packages_in_stock": 3,
+      "quantity_per_package": 500,
+      "unit": "ml"
+    },
+    {
+      "name": "Emulsifier",
+      "price_per_package": 2000,
+      "packages_in_stock": 2,
+      "quantity_per_package": 1,
+      "unit": "kg"
+    },
+    {
+      "name": "Carbat",
+      "price_per_package": 600,
+      "packages_in_stock": 2,
+      "quantity_per_package": 1,
+      "unit": "kg"
+    },
+    {
+      "name": "Ethanol",
+      "price_per_package": 700,
+      "packages_in_stock": 3,
+      "quantity_per_package": 1,
+      "unit": "l"
+    } 
+  ],  
+
+  "product_ingredient": [
+    {
+      "product": "Face and Body Scrub",
+      "ingredients": [
+        "Plastic Jar",
+        "Sugar",
+        "Jojoba Oil",
+        "Glycerin",
+        "Chamomile Extract",
+        "Lavender Essential Oil"
+      ]
+    },
+    {
+      "product": "Clay Face Mask",
+      "ingredients": [
+        "Plastic Jar",
+        "Green Clay",
+        "Rose Hydrosol",
+        "Honey",
+        "Aloe Vera Gel",
+        "Tea Tree Essential Oil"
+      ]
+    },
+    {
+      "product": "Moisturizing Lip Balm",
+      "ingredients": [
+        "Tube",
+        "Shea Butter",
+        "Beeswax",
+        "Avocado Oil",
+        "Vitamin E Oil",
+        "Peppermint Essential Oil"
+      ]
+    },
+    {
+      "product": "Coffee Body Scrub",
+      "ingredients": [
+        "Plastic Jar",
+        "Ground Coffee",
+        "Coconut Oil",
+        "Sugar",
+        "Honey",
+        "Orange Essential Oil"
+      ]
+    },
+    {
+      "product": "Soap with Calendula Extract",
+      "ingredients": [
+        "Paper Wrapper",
+        "Glycerin Soap Base",
+        "Calendula Extract",
+        "Olive Oil",
+        "Lavender Essential Oil"
+      ]
+    },
+    {
+      "product": "Herbal Face Toner",
+      "ingredients": [
+        "Pump Bottle",
+        "Lavender Hydrosol",
+        "Glycerin",
+        "Cucumber Extract",
+        "Aloe Vera Gel",
+        "Bergamot Essential Oil"
+      ]
+    },
+    {
+      "product": "Shea Butter Hand Cream",
+      "ingredients": [
+        "Plastic Jar",
+        "Shea Butter",
+        "Olive Oil",
+        "Glycerin",
+        "Emulsifier",
+        "Lavender Extract",
+        "Vitamin E"
+      ]
+    },
+    {
+      "product": "Aloe Vera Body Lotion",
+      "ingredients": [
+        "Pump Bottle",
+        "Rose Hydrosol",
+        "Aloe Vera Gel",
+        "Jojoba Oil",
+        "Glycerin",
+        "Chamomile Extract"
+      ]
+    },
+    {
+      "product": "Antibacterial Hand Gel",
+      "ingredients": [
+        "Pump Bottle",
+        "Ethanol",
+        "Glycerin",
+        "Aloe Vera Gel",
+        "Tea Tree Essential Oil",
+        "Carbomer"
+      ]
+    }
+  ],
+
+  "orders": [
+    {
+      "customer_id": 8,
+      "package": "Small Box",
+      "total_price": 3809,
+      "paymentTicket": "ticket url",
+      "status": "pending",
+      "delivery_date": "2024-12-01",
+      "delivery_address": "123 Main St, Springfield",
+      "customer_phone": "+123456789",
+      "order_items": [
+        {
+          "product": "Face and Body Scrub",
+          "quantity": 1,
+          "price": 1599
+        },
+        {
+          "product": "Clay Face Mask",
+          "quantity": 2,
+          "price": 1075
+        }
+      ]
+    },
+    {
+      "customer_id": 9,
+      "package": "Small Box",
+      "total_price": 740,
+      "paymentTicket": "ticket url",
+      "status": "ready",
+      "delivery_date": "2024-12-02",
+      "delivery_address": "456 Elm St, Springfield",
+      "customer_phone": "+1987654321",
+      "order_items": [
+        {
+          "product": "Soap with Calendula Extract",
+          "quantity": 2,
+          "price": 340
+        }
+      ]
+    },
+    {
+      "customer_id": 10,
+      "package": "Small Box",
+      "total_price": 1110,
+      "paymentTicket": "ticket url",
+      "status": "delivered",
+      "delivery_date": "2024-12-03",
+      "delivery_address": "789 Pine St, Springfield",
+      "customer_phone": "+1122334455",
+      "order_items": [
+        {
+          "product": "Antibacterial Hand Gel",
+          "quantity": 3,
+          "price": 350
+        }
+      ]
+    },
+    {
+      "customer_id": 11,
+      "package": "Large Box",
+      "total_price": 5923,
+      "paymentTicket": "ticket url",
+      "status": "completed",
+      "delivery_date": "2024-11-25",
+      "delivery_address": "321 Oak St, Springfield",
+      "customer_phone": "+1223344556",
+      "order_items": [
+        {
+          "product": "Shea Butter Hand Cream",
+          "quantity": 3,
+          "price": 875
+        },
+        {
+          "product": "Herbal Face Toner",
+          "quantity": 2,
+          "price": 1599
+        }
+      ]
+    },
+    {
+      "package": "Small Box",
+      "total_price": 3700,
+      "paymentTicket": "ticket url",
+      "status": "canceled",
+      "delivery_date": "2024-12-05",
+      "delivery_address": "654 Maple St, Springfield",
+      "customer_phone": "+1445566778",
+      "order_items": [
+        {
+          "product": "Aloe Vera Body Lotion",
+          "quantity": 8,
+          "price": 450
+        }
+      ]
+    },
+    {
+      "package": "Large Box",
+      "total_price": 11497,
+      "paymentTicket": "ticket url",
+      "status": "canceled",
+      "delivery_date": "2024-12-06",
+      "delivery_address": "987 Birch St, Springfield",
+      "customer_phone": "+1777888999",
+      "order_items": [
+        {
+          "product": "Coffee Body Scrub",
+          "quantity": 4,
+          "price": 1650
+        },
+        {
+          "product": "Face and Body Scrub",
+          "quantity": 3,
+          "price": 1599
+        }
+      ]
+    }
+  ]
+}
