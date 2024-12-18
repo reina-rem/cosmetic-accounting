@@ -2,7 +2,7 @@
   "name": "cosmetic-accounting",
   "version": "0.0.1",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node dist/src/main.js",
+    "start": "cross-env NODE_ENV=production nest start",
     "start:dev": "cross-env NODE_ENV=development nest start --watch",
     "populate-db": "cross-env NODE_ENV=development ts-node src/db/seed/populate-db.ts",
 
