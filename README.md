@@ -3,6 +3,7 @@ This project was developed as a test assignment for the Junior Backend NodeJS De
 
 ## Live Demo 
 You can view the live demo of the application here: [Live Demo](https://cosmetic-accounting.onrender.com)
+
 Link to documentation: [Docs](https://cosmetic-accounting.onrender.com/docs)
 
 Administrator account to test the app:
