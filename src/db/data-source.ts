@@ -24,6 +24,9 @@ const dataSourceOptions: DataSourceOptions = {
   namingStrategy: new SnakeNamingStrategy(),
   synchronize: false,
   logging: true,
+  ssl: {
+    rejectUnauthorized: false,
+  },
 }
 
 const dataSource = new DataSource(dataSourceOptions)
